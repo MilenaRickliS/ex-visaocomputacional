@@ -30,6 +30,9 @@ cv2.putText(imagem, texto, (text_x, text_y), fonte, tamanho_fonte, (0, 0, 0), es
 # Mostrar a imagem final
 cv2.imshow('Imagem Modificada', imagem)
 
+# Salvar imagem processada
+cv2.imwrite("overlays.jpg", imagem)
+
 # Aguardar a tecla 'q' para fechar a janela
 cv2.waitKey(0)
 cv2.destroyAllWindows()

@@ -8,7 +8,7 @@ imagem2 = cv2.imread("gramado.jpg", cv2.IMREAD_GRAYSCALE)
 imagem_blur = cv2.blur(imagem, (5, 5))
 
 # Aplicar filtro Canny
-bordas_canny = cv2.Canny(imagem2, 50, 150)
+bordas_canny = cv2.Canny(imagem2, 50, 100)
 
 # Obter as dimensões originais da imagem
 altura, largura = imagem.shape[:2]
