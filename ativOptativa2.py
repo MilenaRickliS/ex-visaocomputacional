@@ -33,6 +33,6 @@ cv2.imshow('Imagem Modificada', imagem)
 # Salvar imagem processada
 cv2.imwrite("overlays.jpg", imagem)
 
-# Aguardar a tecla 'q' para fechar a janela
+
 cv2.waitKey(0)
 cv2.destroyAllWindows()
